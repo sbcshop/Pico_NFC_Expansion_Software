@@ -102,7 +102,7 @@ This Github provides a getting started guide and other working details for the N
 
 You can also configure the NFC Module using Window Software 
    
-   *** Find more details in [UART/USB](https://github.com/sbcshop/NFC_Module)***
+   **Find more details in [UART/USB](https://github.com/sbcshop/NFC_Module)**
    
   #### Working Description with NFC module:
    
