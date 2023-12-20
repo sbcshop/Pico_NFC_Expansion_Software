@@ -57,8 +57,6 @@ This Github provides a getting started guide and other working details for the N
   |GND    | NFC Pins|
   |VCC    | NFC Pins|
 
-
-
 ### 1. Step to install boot Firmware in Pico
    - Push and hold the BOOTSEL button and plug your Pico W into the USB port of your computer. Release the BOOTSEL button after your Pico is connected.
    <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif">
@@ -99,6 +97,9 @@ This Github provides a getting started guide and other working details for the N
    In [example](https://github.com/sbcshop/Pico_NFC_Expansion_Software/tree/main/examples) folder you will find demo example script code to test onboard components of Expansion like 
    - [NFC module demo](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/examples/main.py): testing onboard NFC module, buzzer and display unit of the shield. For this demo code to test you will have to add lib [nfc. py](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/examples/nfc.py)
 
+### Working Without Pico (Via USB)
+   Find more details in [NTAG Datasheet]( https://github.com/sbcshop/NFC_Module)
+   
   #### Working Description with NFC module:
    
   - Basic Communication Protocol: Data Format
