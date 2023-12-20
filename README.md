@@ -148,14 +148,14 @@ This Github provides a getting started guide and other working details for the N
         STATUS 0x00 - OK
     ```
 
-   Checkout [Manual](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/documents/NFC%20Module%20command%20Manual.pdf) for detail understanding about System and Working Commands to send module from Host and corresponding response getting from NFC Module. 
+   Checkout [Manual](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/documents/NFC%20Module%20command%20Manual.pdf) for detail understanding about System and Working Commands to send module from Host and corresponding response getting from NFC Module. 
 
    #### Basic Memory Structure of NFC Tags 
    The EEPROM memory is organized into pages with 4 bytes per page. The NTAG213 variant has 45 pages, the NTAG215 variant has 135 pages and the NTAG216 variant has 231 pages in total. The functionality of the different memory sections is shown below for NTAG213. 
 
-   <img src="https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/images/memory%20organization%20NTAG213.png">
+   <img src="https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/images/memory%20organization%20NTAG213.png">
    
-  Find more details in [NTAG Datasheet](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/documents/NTAG213_215_216.pdf)
+  Find more details in [NTAG Datasheet](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/documents/NTAG213_215_216.pdf)
 
    
 ## Resources
