@@ -31,9 +31,6 @@ This Github provides a getting started guide and other working details for the N
 #### Pinout
 <img src="https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/images/img.png">
 
-#### GPIO Pins Detail
-<img src="https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/images/READPI%20GPIO%20PINS%20breakout.jpg">
-
 ### Interfacing Details
 - Pico W/Pico and RFID module interfacing
   
