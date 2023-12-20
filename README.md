@@ -54,11 +54,11 @@ This Github provides a getting started guide and other working details for the N
 - Breakout Pins of NFC
   | Pico W | Function |
   |---|---|
-  |BEEP | Pins |
-  |NFC_RX | Pins |
-  |NFC_TX | Pins |
-  |GND    | Pins |
-  |VCC    | Pins |
+  |BEEP | NFC buzzer Pin |
+  |NFC_RX | NFC Pin |
+  |NFC_TX | NFC Pin |
+  |GND    | NFC Pins|
+  |VCC    | NFC Pins|
 
 
 
