@@ -74,7 +74,7 @@ This Github provides a getting started guide and other working details for the N
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img1.jpg" />
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img2.jpg" />
       
-   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/onboard_ledBlink.py), then click on the green run button to make your script run on Pico.
+   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/examples/pico_onboard_ledBlink.py), then click on the green run button to make your script run on Pico.
      
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img3.jpg" />
      
@@ -95,7 +95,7 @@ This Github provides a getting started guide and other working details for the N
 
 
 ### Example Codes
-   Save whatever example code file you want to try as **main.py** in **Pico W** as shown above [step 3](https://github.com/sbcshop/ReadPi_NFC_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-readpi), also add related lib files with default name.
+   Save whatever example code file you want to try as **main.py** in **Pico W** as shown above [step 3](https://github.com/sbcshop/ReadPi_NFC_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-readpi), also add related lib files with the default name.
    In [example](https://github.com/sbcshop/Pico_NFC_Expansion_Software/tree/main/examples) folder you will find demo example script code to test onboard components of ReadPi like 
    - [Buzzer test](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/BuzzerDemo.py) : code to test onboard Buzzer
    - [SD card demo](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/Demo_sdcard.py): code to test onboard micro SD card interfacing, [sdcard. py](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/sdcard.py) lib file is required for the code to run successfully.
@@ -111,7 +111,7 @@ This Github provides a getting started guide and other working details for the N
 
      | Field | Length| Description | Remark |
      |---|---|---|---|
-     |STX | 1  | 0xa8 - ‘Start Byte’ – Standard control bytes. Indicates the the start of a data packet  | |
+     |STX | 1  | 0xa8 - ‘Start Byte’ – Standard control bytes. Indicates the start of a data packet  | |
      |SEQ1 | 1  | Random Code  | Address bits are reserved for handling device addresses over 255.|
      |DADD | 1  | Device address is used for multiple machine communication, only address matching can be used for data communication, 0x00 and 0xFF addresses are broadcast addresses  |  |
      |CMD | 1  | Command Code One byte of the command sent by the upper unit to the lower unit  | |
