@@ -59,9 +59,8 @@ This Github provides a getting started guide and other working details for the N
 
 
 
-### 1. Step to install boot Firmware
-   - Every ReadPi board will be provided with boot firmware already installed, so you can skip this step and directly go to step 2.
-   - If in case you want to install firmware for your board, Push and hold the BOOTSEL button and plug your Pico W into the USB port of your computer. Release the BOOTSEL button after your Pico is connected.
+### 1. Step to install boot Firmware in Pico
+   - Push and hold the BOOTSEL button and plug your Pico W into the USB port of your computer. Release the BOOTSEL button after your Pico is connected.
    <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif">
    
    - It will mount as a Mass Storage Device called RPI-RP2.
@@ -69,38 +68,38 @@ This Github provides a getting started guide and other working details for the N
 
 ### 2. Onboard LED Blink 
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
-   - Once done start **Thonny IDE application**, Connect ReadPi to laptop/PC.
-   - Select device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
+   - Once done start **Thonny IDE application**, Connect Expansion to laptop/PC.
+   - Select the device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
      
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img1.jpg" />
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img2.jpg" />
       
-   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/onboard_ledBlink.py), then click on the green run button to make your script run on ReadPi.
+   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/onboard_ledBlink.py), then click on the green run button to make your script run on Pico.
      
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img3.jpg" />
      
      Now that we've reached this point, you're executing your script through Thonny IDE, so if you unplug Pico, it will stop running. To run your script without using an IDE, simply power up ArdiPi and it should run your script, go to step 3. Once you have transferred your code to the ArdiPi board, to see your script running, just plug in power either way using micro USB or via Vin, both will work.
 
-### 3. How to move your script on Pico W of ReadPi
+### 3. How to move your script on Pico W of Expansion
    - Click on File -> Save Copy -> select Raspberry Pi Pico , Then save file as main.py
      
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Resistive_Software/blob/main/images/transfer_script_pico.gif" />
    
-      In similar way you can add various python code files to Pico. Also you can try out sample codes given here in [examples folder](https://github.com/sbcshop/ReadPi_NFC_Software/tree/main/examples). 
+      Similarly, you can add various Python code files to Pico. Also, you can try out sample codes given here in [examples folder](https://github.com/sbcshop/ReadPi_NFC_Software/tree/main/examples). 
    
-   - But in case if you want to move multiple files at one go, example suppose you are interested to save library files folder into Pico W, below image demonstrate that
+   - But in case you want to move multiple files at one go, for example, suppose you are interested in saving the library files folder into Pico W, the below image demonstrates that
      
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/blob/main/images/multiple_file_transfer.gif" />
    
-**NOTE: Don't rename _lib_ files** or and other files, only your main code script should be rename as main.py for standalone execution without Thonny.
+**NOTE: Don't rename _lib_ files** or other files, only your main code script should be renamed as main.py for standalone execution without Thonny.
 
 
 ### Example Codes
-   Save whatever example code file you want to try as **main.py** in **Pico W** as shown in above [step 3](https://github.com/sbcshop/ReadPi_NFC_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-readpi), also add related lib files with default name.
+   Save whatever example code file you want to try as **main.py** in **Pico W** as shown above [step 3](https://github.com/sbcshop/ReadPi_NFC_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-readpi), also add related lib files with default name.
    In [example](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples) folder you will find demo example script code to test onboard components of ReadPi like 
    - [Buzzer test](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/BuzzerDemo.py) : code to test onboard Buzzer
-   - [SD card demo](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/Demo_sdcard.py) : code to test onboard micro SD card interfacing, [sdcard.py](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/sdcard.py) lib file is required for the code to run successfully.
-   - [NFC module demo](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/NFCmodule_demo.py) : testing onboard NFC module , buzzer and display unit of shield. For this demo code to test you will have to add lib [nfc.py](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/nfc.py)
+   - [SD card demo](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/Demo_sdcard.py): code to test onboard micro SD card interfacing, [sdcard. py](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/sdcard.py) lib file is required for the code to run successfully.
+   - [NFC module demo](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/NFCmodule_demo.py): testing onboard NFC module, buzzer and display unit of the shield. For this demo code to test you will have to add lib [nfc. py](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/examples/nfc.py)
 
   #### Working Description with NFC module:
    
@@ -152,7 +151,7 @@ This Github provides a getting started guide and other working details for the N
    Checkout [Manual](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/documents/NFC%20Module%20command%20Manual.pdf) for detail understanding about System and Working Commands to send module from Host and corresponding response getting from NFC Module. 
 
    #### Basic Memory Structure of NFC Tags 
-   The EEPROM memory is organized in pages with 4 bytes per page. NTAG213 variant has 45 pages, NTAG215 variant has 135 pages and NTAG216 variant has 231 pages in total.The functionality of the different memory sections is shown below for NTAG213. 
+   The EEPROM memory is organized into pages with 4 bytes per page. The NTAG213 variant has 45 pages, the NTAG215 variant has 135 pages and the NTAG216 variant has 231 pages in total. The functionality of the different memory sections is shown below for NTAG213. 
 
    <img src="https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/images/memory%20organization%20NTAG213.png">
    
@@ -177,7 +176,7 @@ This Github provides a getting started guide and other working details for the N
 
 ## Product License
 
-This is ***open source*** product. Kindly check LICENSE.md file for more information.
+This is ***open source*** product. Kindly check the LICENSE.md file for more information.
 
 Please contact support@sb-components.co.uk for technical support.
 <p align="center">
