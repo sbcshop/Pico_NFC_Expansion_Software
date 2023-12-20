@@ -98,7 +98,7 @@ This Github provides a getting started guide and other working details for the N
    - [NFC module demo](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/examples/main.py): testing onboard NFC module, buzzer and display unit of the shield. For this demo code to test you will have to add lib [nfc. py](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/examples/nfc.py)
 
 ### Working Without Pico (Via USB)
-   Find more details in [NTAG Datasheet]( https://github.com/sbcshop/NFC_Module)
+   Find more details in [UART/USB](https://github.com/sbcshop/NFC_Module)
    
   #### Working Description with NFC module:
    
