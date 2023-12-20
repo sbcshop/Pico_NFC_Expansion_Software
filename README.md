@@ -49,7 +49,7 @@ This Github provides a getting started guide and other working details for the N
   |---|---|---|
   |GP20 | SDA |OLED Pin|
   |GP21 | SCL |OLED Pin|
-  |GP2 | Buzzer | Buzzer positive |
+  |GP2  | Buzzer | Buzzer positive |
  
 - Breakout Pins of NFC
   | Pico W | Multi-Function |
