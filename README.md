@@ -1,32 +1,23 @@
 # Pico_NFC_Expansion_Software
 
-# ReadPi_NFC_Software
 <img src="https://github.com/sbcshop/ReadPi_RFID_Software/blob/main/images/banner.jpg">
 
-ReadPi 13.56 MHz frequency based NFC Reader/Writer powered by Raspberry Pi Pico W unit. 
-This github provides getting started guide and other working details for ReadPi NFC version.
+Pico NFC Expansion 13.56 MHz frequency-based NFC Reader/Writer. 
+This Github provides a getting started guide and other working details for the NFC Expansion.
 
 ### Features:
-- Powered by Raspberry Pi Pico W microcontroller  board 
 - Onboard 13.56MHz NFC read/write Module
-- 1.3” Display for visual interaction
-- TF card slot for storage and data transfer
+- 0.91 inch OLED
 - Drag- and- drop programming using mass storage over USB
+- Type C Power/UART
 - Multifunction GPIO breakout supporting general I/O, UART, I2C, SPI, ADC & PWM function.
-- Multi- tune Buzzer to add audio alert into project
-- Onboard 5-Way Joystick allows better control- related projects
-- Status LED for board power, charging and Tag Scan indication 
-- Battery supply and charging support for portable operation
-- Multi- platform support like MicroPython, CircuitPython and Arduino IDE.
-- Comes with HID support, so device can simulate a mouse or keyboard 
+- Multi-tune Buzzer to add audio alert into the project
+- Status LED for board power, and Tag Scan indication 
+- Multi-platform support like MicroPython, CircuitPython, and Arduino IDE.
+- Comes with HID support, so the device can simulate a mouse or keyboard 
 
 ### Specifications:
-- RP2040 microcontroller is dual-core Arm Cortex-M0+ processor, 2MB of onboard flash storage, 264kB of RAM
-- On-board single-band 2.4GHz wireless interfaces (802.11n) for WiFi and Bluetooth® 5 (LE)
-- WPA3 & Soft access point supporting up to four clients
 - Operating voltage of pins 3.3V and board supply 5V
-- 240x240 resolution, IPS display, and 65k RGB colors
-- ST7789 display driver
 - Operating Frequency: 13.56MHz
 - Operating current: 50mA
 - Reading Distance: >50mm(The effective distance is related to the IC card and the use environment)
