@@ -1,6 +1,6 @@
 # Pico_NFC_Expansion_Software
 
-<img src="https://github.com/sbcshop/ReadPi_RFID_Software/blob/main/images/banner.jpg">
+<img src="https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/images/img1.png">
 
 Pico NFC Expansion 13.56 MHz frequency-based NFC Reader/Writer. 
 This Github provides a getting started guide and other working details for the NFC Expansion.
