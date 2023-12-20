@@ -26,7 +26,7 @@ This Github provides a getting started guide and other working details for the N
 - Contactless cards: NTAG213, Mifare one S50, Mifare one S70, ultralight, FM11RF08
 - Operating Temperature: -15°C~+55°C
 
-## Getting Started with ReadPi-NFC
+## Getting Started with NFC Expansion
 ### Hardware Overview
 #### Pinout
 <img src="https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/images/img.png">
@@ -96,7 +96,7 @@ This Github provides a getting started guide and other working details for the N
 
 ### Example Codes
    Save whatever example code file you want to try as **main.py** in **Pico W** as shown above [step 3](https://github.com/sbcshop/ReadPi_NFC_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-readpi), also add related lib files with the default name.
-   In [example](https://github.com/sbcshop/Pico_NFC_Expansion_Software/tree/main/examples) folder you will find demo example script code to test onboard components of ReadPi like 
+   In [example](https://github.com/sbcshop/Pico_NFC_Expansion_Software/tree/main/examples) folder you will find demo example script code to test onboard components of Expansion like 
    - [NFC module demo](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/examples/main.py): testing onboard NFC module, buzzer and display unit of the shield. For this demo code to test you will have to add lib [nfc. py](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/examples/nfc.py)
 
   #### Working Description with NFC module:
@@ -115,7 +115,7 @@ This Github provides a getting started guide and other working details for the N
      |CMD | 1  | Command Code One byte of the command sent by the upper unit to the lower unit  | |
      |DATA LENGTH | 2  | Data length includes TIME/STATUS + DATA field  | The high byte comes first, the low byte comes second |
      |STATUS | 1  | Lower computer return status, one byte | 00 means the command is executed correctly and the others are error codes |
-     |TIME | 1  | Used for specific command time control, timeout processing, other commands (most) the parameter is 0  | |
+     |TIME | 1  | Used for specific command time control, timeout processing, and other commands (most) the parameter is 0  | |
      |DATA  [0-N] | 2000  | Command Code One byte of the command sent by the upper unit to the lower unit  | It is used as command parameters when sent by the upper computer and as return data when sent by the lower computer with variable length. The maximum length is 512, and it will not be processed when it is out of range. It will reply directly/show that the command is too long and wait for the next command. |
      |BCC | 1  | Xor check bit, which verifies data but does not contain STX and ETX |  |
      |ETX | 1  | 0xa9 - ‘Terminating byte’ – Standard control byte. Indicates the end of a data packet| |
@@ -146,7 +146,7 @@ This Github provides a getting started guide and other working details for the N
         STATUS 0x00 - OK
     ```
 
-   Checkout [Manual](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/documents/NFC%20Module%20command%20Manual.pdf) for detail understanding about System and Working Commands to send module from Host and corresponding response getting from NFC Module. 
+   Checkout [Manual](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/documents/NFC%20Module%20command%20Manual.pdf) for a detailed understanding of System and Working Commands to send module from Host and corresponding response getting from NFC Module. 
 
    #### Basic Memory Structure of NFC Tags 
    The EEPROM memory is organized into pages with 4 bytes per page. The NTAG213 variant has 45 pages, the NTAG215 variant has 135 pages and the NTAG216 variant has 231 pages in total. The functionality of the different memory sections is shown below for NTAG213. 
@@ -168,7 +168,7 @@ This Github provides a getting started guide and other working details for the N
 
 
 ## Related Products
-   * [ReadPi RFID](https://shop.sb-components.co.uk/products/readpi-an-rfid-nfc-reader-powered-with-raspberry-pi-pico-w?variant=40478483054675) - ReadPi with 125KHz RFID powered by Raspberry Pi Pico W
+   * [Pinco NFC Expansion RFID](https://shop.sb-components.co.uk/products/readpi-an-rfid-nfc-reader-powered-with-raspberry-pi-pico-w?variant=40478483054675) - Pico NFC Expansion with 125KHz RFID powered by Raspberry Pi Pico W
    * [Raspberry Pi Pico RFID expansion](https://shop.sb-components.co.uk/products/raspberry-pi-pico-rfid-expansion) - RFID expansion board with support to incorporate Pico/Pico W 
    * [RFID_Breakout](https://shop.sb-components.co.uk/products/rfid-breakout?_pos=5&_sid=fac219786&_ss=r) - RFID breakout for standalone testing and freedom to choose microcontroller as per requirement.
 
