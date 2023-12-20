@@ -49,19 +49,17 @@ This Github provides a getting started guide and other working details for the N
   |---|---|---|
   |GP20 | SDA |OLED Pin|
   |GP21 | SCL |OLED Pin|
-
   |GP2 | Buzzer | Buzzer positive |
  
 - Breakout Pins of NFC
-  | Pico W |Physical Pin | Multi-Function |
-  |---|---|---|
-  |GP0 | 1  | General IO / SPI0 RX / I2C0 SDA / UART0 TX |
-  |GP1 | 2 | General IO / SPI0 CSn / I2C0 SCL / UART0 RX |
-  |GP2 | 4 | General IO / SPI0 SCK / I2C1 SDA |
-  |GP3 | 5 | General IO / SPI0 TX / I2C1 SCL |
-  |GP6 | 9 | General IO / SPI0 SCK / I2C1 SDA |
-  |GP7 | 10 | General IO / SPI0 TX / I2C1 SCL |
-  |GP28| 34 | General IO / ADC2 / SPI1 RX |
+  | Pico W | Multi-Function |
+  |---|---|
+  |BEEP | General IO / SPI0 RX / I2C0 SDA / UART0 TX |
+  |NFC_RX | General IO / SPI0 CSn / I2C0 SCL / UART0 RX |
+  |NFC_TX | General IO / SPI0 SCK / I2C1 SDA |
+  |GND    | General IO / SPI0 TX / I2C1 SCL |
+  |VCC    | General IO / SPI0 SCK / I2C1 SDA |
+
 
 
 ### 1. Step to install boot Firmware
