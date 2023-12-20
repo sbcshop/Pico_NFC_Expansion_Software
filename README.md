@@ -35,7 +35,7 @@ This Github provides a getting started guide and other working details for the N
 <img src="https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/images/READPI%20GPIO%20PINS%20breakout.jpg">
 
 ### Interfacing Details
-- Pico W and RFID module interfacing
+- Pico W/Pico and RFID module interfacing
   
   | Pico W | NFC Module Pin | Function |
   |---|---|---|
@@ -43,7 +43,8 @@ This Github provides a getting started guide and other working details for the N
   |GP0 | TX  | Serial UART connection |
 
 
--  Buzzer and OLED Interfacing
+- Buzzer and OLED Interfacing
+  
   | Pico W | Buttons | Function |
   |---|---|---|
   |GP20 | SDA |OLED Pin|
