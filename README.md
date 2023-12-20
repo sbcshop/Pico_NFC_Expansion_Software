@@ -85,7 +85,7 @@ This Github provides a getting started guide and other working details for the N
      
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Resistive_Software/blob/main/images/transfer_script_pico.gif" />
    
-      Similarly, you can add various Python code files to Pico. Also, you can try out sample codes given here in [examples folder](https://github.com/sbcshop/ReadPi_NFC_Software/tree/main/examples). 
+      Similarly, you can add various Python code files to Pico. Also, you can try out sample codes given here in [examples folder](https://github.com/sbcshop/Pico_NFC_Expansion_Software/tree/main/examples). 
    
    - But in case you want to move multiple files at one go, for example, suppose you are interested in saving the library files folder into Pico W, the below image demonstrates that
      
