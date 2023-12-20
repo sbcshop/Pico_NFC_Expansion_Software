@@ -157,9 +157,9 @@ This Github provides a getting started guide and other working details for the N
 
    
 ## Resources
-  * [Schematic](https://github.com/sbcshop/ReadPi_NFC_Hardware/blob/main/Design%20Data/Sch%20ReadPi.pdf)
-  * [Hardware Files](https://github.com/sbcshop/ReadPi_NFC_Hardware)
-  * [Step File](https://github.com/sbcshop/ReadPi_NFC_Hardware/blob/main/Mechanical%20Data/STEP.step)
+  * [Schematic](https://github.com/sbcshop/Pico_NFC_Expansion_Hardware/blob/main/Design%20Data/SCH.pdf)
+  * [Hardware Files](https://github.com/sbcshop/Pico_NFC_Expansion_Hardware)
+  * [Step File](https://github.com/sbcshop/Pico_NFC_Expansion_Hardware/blob/main/Mechanical%20Data/NFC%20EXPANSION.step)
   * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
   * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
   * [RP2040 Datasheet](https://github.com/sbcshop/HackyPi-Hardware/blob/main/Documents/rp2040-datasheet.pdf)
