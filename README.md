@@ -52,13 +52,13 @@ This Github provides a getting started guide and other working details for the N
   |GP2  | Buzzer | Buzzer positive |
  
 - Breakout Pins of NFC
-  | Pico W | Multi-Function |
+  | Pico W | Function |
   |---|---|
-  |BEEP | General IO / SPI0 RX / I2C0 SDA / UART0 TX |
-  |NFC_RX | General IO / SPI0 CSn / I2C0 SCL / UART0 RX |
-  |NFC_TX | General IO / SPI0 SCK / I2C1 SDA |
-  |GND    | General IO / SPI0 TX / I2C1 SCL |
-  |VCC    | General IO / SPI0 SCK / I2C1 SDA |
+  |BEEP | Pins |
+  |NFC_RX | Pins |
+  |NFC_TX | Pins |
+  |GND    | Pins |
+  |VCC    | Pins |
 
 
 
