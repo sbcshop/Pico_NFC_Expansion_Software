@@ -29,7 +29,7 @@ This Github provides a getting started guide and other working details for the N
 ## Getting Started with ReadPi-NFC
 ### Hardware Overview
 #### Pinout
-<img src="https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/images/ReadPi_NFC%20PINOUT.jpg">
+<img src="https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/images/img.png">
 
 - (1) 1.3” Display
 - (2) NFC Module
