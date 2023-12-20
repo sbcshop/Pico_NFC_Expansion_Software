@@ -164,7 +164,7 @@ This Github provides a getting started guide and other working details for the N
   * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
   * [RP2040 Datasheet](https://github.com/sbcshop/HackyPi-Hardware/blob/main/Documents/rp2040-datasheet.pdf)
   * [NFC Module Command Manual](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/documents/NFC%20Module%20command%20Manual.pdf)
-  * [NTAG213/215/216 Datasheet](https://github.com/sbcshop/ReadPi_NFC_Software/blob/main/documents/NTAG213_215_216.pdf)
+  * [NTAG213/215/216 Datasheet](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/documents/NTAG213_215_216.pdf)
 
 
 ## Related Products
