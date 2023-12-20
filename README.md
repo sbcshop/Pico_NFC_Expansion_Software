@@ -100,7 +100,7 @@ This Github provides a getting started guide and other working details for the N
 ### Working Without Pico (Via USB)
 <img src="https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/images/img2.png">
 
-You can also configure the NFC Module using Window Software 
+You can also configure, read/write etc using the NFC Module using Windows Software 
    
    **Find more details in [UART/USB](https://github.com/sbcshop/NFC_Module)**
    
