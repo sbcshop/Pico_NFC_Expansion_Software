@@ -173,7 +173,7 @@ This Github provides a getting started guide and other working details for the N
 
 
 ## Related Products
-   * [Pinco NFC Expansion RFID](https://shop.sb-components.co.uk/products/readpi-an-rfid-nfc-reader-powered-with-raspberry-pi-pico-w?variant=40478483054675) - Pico NFC Expansion with 125KHz RFID powered by Raspberry Pi Pico W
+   * [Pinco NFC Expansion RFID](https://shop.sb-components.co.uk/products/readpi-an-rfid-nfc-reader-powered-with-raspberry-pi-pico-w?variant=40478483054675) - Pico NFC Expansion with RFID powered by Raspberry Pi Pico W
    * [Raspberry Pi Pico RFID expansion](https://shop.sb-components.co.uk/products/raspberry-pi-pico-rfid-expansion) - RFID expansion board with support to incorporate Pico/Pico W 
    * [RFID_Breakout](https://shop.sb-components.co.uk/products/rfid-breakout?_pos=5&_sid=fac219786&_ss=r) - RFID breakout for standalone testing and freedom to choose microcontroller as per requirement.
 
