@@ -97,11 +97,11 @@ This Github provides a getting started guide and other working details for the N
    In [example](https://github.com/sbcshop/Pico_NFC_Expansion_Software/tree/main/examples) folder you will find demo example script code to test onboard components of Expansion like 
    - [NFC module demo](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/examples/main.py): testing onboard NFC module, buzzer and display unit of the shield. For this demo code to test you will have to add lib [nfc. py](https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/examples/nfc.py)
 
-### Working Without Pico (Via USB)
+### Working Without Pico (Via USB) through Software
 <img src="https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/images/img2.png">
 
 - You can also configure, read/write, etc on the NFC Module using Windows Software.
-- Software download link and operational working detail is available on this [link](https://github.com/sbcshop/NFC_Module/blob/main/README.md#nfc-module-with-software-application)
+- Software download link and operational working details is available on this link [go through this link for software](https://github.com/sbcshop/NFC_Module/blob/main/README.md#nfc-module-with-software-application)
    
 
 ### Working Description of NFC module:
