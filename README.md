@@ -2,8 +2,8 @@
 
 <img src="https://github.com/sbcshop/Pico_NFC_Expansion_Software/blob/main/images/img1.png">
 
-Pico NFC Expansion 13.56 MHz frequency-based NFC Reader/Writer. 
-This Github provides a getting started guide and other working details for the NFC Expansion.
+Pico NFC Expansion is powered by RPi Pico/Pico W and comes with a 13.56 MHz frequency-based NFC Reader/Writer that may be utilised for any contactless communication project.
+This Github provides a getting started guide and other working details for the Pico NFC Expansion board.
 
 ### Features:
 - Onboard 13.56MHz NFC read/write Module
@@ -52,10 +52,10 @@ This Github provides a getting started guide and other working details for the N
   | Pico W | Function |
   |---|---|
   |BEEP | NFC buzzer Pin |
-  |NFC_RX | NFC Pin |
-  |NFC_TX | NFC Pin |
-  |GND    | NFC Pins|
-  |VCC    | NFC Pins|
+  |NFC_RX | NFC UART pin|
+  |NFC_TX | NFC UART Pin |
+  |GND    | Supply Ground|
+  |VCC    | Supply Positive|
 
 ### 1. Step to install boot Firmware in Pico
    - Push and hold the BOOTSEL button and plug your Pico W into the USB port of your computer. Release the BOOTSEL button after your Pico is connected.
@@ -173,7 +173,7 @@ This Github provides a getting started guide and other working details for the N
 
 
 ## Related Products
-   * [Pinco NFC Expansion RFID](https://shop.sb-components.co.uk/products/readpi-an-rfid-nfc-reader-powered-with-raspberry-pi-pico-w?variant=40478483054675) - Pico NFC Expansion with RFID powered by Raspberry Pi Pico W
+   * [ReadPi](https://shop.sb-components.co.uk/products/readpi-an-rfid-nfc-reader-powered-with-raspberry-pi-pico-w?variant=40478483054675) - An RFID/NFC Reader Powered with Raspberry Pi Pico W
    * [Raspberry Pi Pico RFID expansion](https://shop.sb-components.co.uk/products/raspberry-pi-pico-rfid-expansion) - RFID expansion board with support to incorporate Pico/Pico W 
    * [RFID_Breakout](https://shop.sb-components.co.uk/products/rfid-breakout?_pos=5&_sid=fac219786&_ss=r) - RFID breakout for standalone testing and freedom to choose microcontroller as per requirement.
 
