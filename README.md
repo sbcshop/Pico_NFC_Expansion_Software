@@ -173,6 +173,9 @@ This Github provides a getting started guide and other working details for the P
 
 
 ## Related Products
+   *[Pico NFC Expansion](https://shop.sb-components.co.uk/products/nfc-expansion-for-raspberry-pi-pico?_pos=6&_sid=02d74a383&_ss=r) -  Expansion for Pico
+   * [NFC Breakout](https://shop.sb-components.co.uk/products/nfc-breakout-board?_pos=5&_sid=02d74a383&_ss=r)
+   * [Pico NFC HAT](https://shop.sb-components.co.uk/products/pinfc-nfc-hat-for-raspberry-pi?_pos=7&_sid=02d74a383&_ss=r) - HAT for raspberry pi
    * [ReadPi](https://shop.sb-components.co.uk/products/readpi-an-rfid-nfc-reader-powered-with-raspberry-pi-pico-w?variant=40478483054675) - An RFID/NFC Reader Powered with Raspberry Pi Pico W
    * [Raspberry Pi Pico RFID expansion](https://shop.sb-components.co.uk/products/raspberry-pi-pico-rfid-expansion) - RFID expansion board with support to incorporate Pico/Pico W 
    * [RFID_Breakout](https://shop.sb-components.co.uk/products/rfid-breakout?_pos=5&_sid=fac219786&_ss=r) - RFID breakout for standalone testing and freedom to choose microcontroller as per requirement.
